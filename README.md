@@ -78,7 +78,7 @@ Run macOS on your Dell Latitude 3410
 - Install with a clean sonoma DMG  and replace the EFI folder with one of mine [releases](https://github.com/fgvilches/DELL-LATITUDE-3410-HACKINTOSH/releases).
 - If the trackpad doesn't work during the installation, please plug a wired-wireless mouse before the installation. After the installation completes, open Terminal.app and run sudo kextcache -i /. Wait for the process ending and restart the device. 
 
-- Remember fill with a serial number and board (Use opencore's macserial.py or somthing like that ) on config.plist (Generate a valid serial number an board), because I deleted my SerialNumber an Board for obvious reasons.
+- Remember fill with a serial number and board (Use opencore's macserial.py or somthing like that ) on config.plist (Generate a valid serial number and board), because I deleted my SerialNumber and Board for obvious reasons.
   - With that you get Facetime/iMessage Working via ethernet (As of right now it cannot work via wifi because is Intel and is not supported by itlwm)
   
 ## Improvements
